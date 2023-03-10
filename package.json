@@ -1,14 +1,23 @@
 {
   "name": "mosip-esignet-login-button",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
-  "homepage": "https://anshulvanawat.info",
+  "description": "Renders a button which navigates user to esignet website for authentication",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "homepage": "https://docs.esignet.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anshulv1401/mosip-esignet-login-button"
   },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
+    "build": "rm -rf dist && babel src/lib --out-dir dist --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,9 +27,17 @@
     "with",
     "esignet"
   ],
-  "author": "Anshul Vanawat",
+  "author": "Anshul Vanawat<anshulv1401@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.20.0"
+    "@babel/polyfill": "^7.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2"
   }
 }

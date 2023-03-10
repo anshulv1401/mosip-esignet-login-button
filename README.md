@@ -16,35 +16,14 @@ yarn add mosip-esignet-login-button
 
 ```js
 # using require
-const { getRepos } = require('mosip-esignet-login-button');
+const { NavigateToEsignet } = require('mosip-esignet-login-button');
 
 # using import
-import { getRepos } from 'mosip-esignet-login-button';
+import { NavigateToEsignet } from 'mosip-esignet-login-button';
 ```
 
 ## Example
 
-### Using promises:
-
 ```js
-getRepos({
-  username: 'gaearon', // provide GitHub username here
-  page: 1, // optional property: default value is 1
-  per_page: 50 // optional property: default value is 30
-}).then((repositories) => console.log(repositories));
-```
-
-### Using async/await:
-
-```js
-const getRepositories = async function () {
-  const repositories = await getRepos({
-    username: 'gaearon', // provide GitHub username here
-    page: 1, // optional property: default value is 1
-    per_page: 50 // optional property: default value is 30
-  });
-  console.log(repositories);
-};
-
-getRepositories();
+<NavigateToEsignet esignet_url={uri_UI}/>
 ```
