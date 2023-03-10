@@ -1,0 +1,26 @@
+{
+  "name": "mosip-esignet-login-button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://anshulvanawat.info",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshulv1401/mosip-esignet-login-button"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mosip",
+    "button",
+    "login",
+    "with",
+    "esignet"
+  ],
+  "author": "Anshul Vanawat",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
