@@ -1,6 +1,6 @@
 {
   "name": "mosip-esignet-login-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Renders a button which navigates user to esignet website for authentication",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -27,14 +27,14 @@
   "author": "Anshul Vanawat<anshulv1401@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",
-    "@babel/preset-env": "^7.20.2"
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
   }
 }
