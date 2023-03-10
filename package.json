@@ -9,9 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/anshulv1401/mosip-esignet-login-button"
   },
-  "publishConfig": {
-    "access": "restricted"
-  },
   "files": [
     "dist",
     "README.md"
