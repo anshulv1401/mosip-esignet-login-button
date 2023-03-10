@@ -1,6 +1,6 @@
 {
   "name": "mosip-esignet-login-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Renders a button which navigates user to esignet website for authentication",
   "main": "dist/index.js",
   "module": "dist/index.js",
